@@ -88,12 +88,12 @@ void xuatLuyThua(int a, int b){
     printf("\n%d^%d = %d",a,b,luythua);
 }
 void xuatUCLN(int a, int b){
-    float ucln = timUCLN(a,b);
-    printf("UCLN = %.2f",ucln);
+    int ucln = timUCLN(a,b);
+    printf("UCLN = %d",ucln);
 }
 void xuatBCNN(int a, int b){
-    float bcnn = timBCNN(a,b);
-    printf("\nBCNN = %.2f",bcnn); 
+    int bcnn = timBCNN(a,b);
+    printf("\nBCNN = %d",bcnn); 
 }
 void lietKeUSC(int a, int b){
     printf("\nUSC:");
